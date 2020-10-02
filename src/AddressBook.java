@@ -10,7 +10,8 @@ public class AddressBook {
         BuddyInfo buddy = new BuddyInfo("Jack","Carelton",1234567);
         book.addBuddy(buddy);
         book.removeBuddy(buddy);
-
+        System.out.println("Buddy has been added");
+        System.out.println("hey");
     }
 
 
@@ -21,8 +22,9 @@ public class AddressBook {
     }
 
     public void addBuddy(BuddyInfo buddy){
-        list.add(buddy);
-
+        if(buddy!=null) {
+            list.add(buddy);
+        }
     }
 
     public void removeBuddy(BuddyInfo buddy){
