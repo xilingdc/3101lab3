@@ -12,6 +12,7 @@ public class AddressBook {
         book.removeBuddy(buddy);
         System.out.println("Buddy has been added");
         System.out.println("hey");
+        System.out.println();
     }
 
 
